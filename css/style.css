@@ -4,7 +4,7 @@
   --mainPink: #ef7998;
   --mainYellow: rgb(249, 228, 148);
   --mainWhite: #fff;
-  --mainBlack: #000;
+  --mainBlack: rgb(0, 0, 0);
   --yellowTrans: rgba(249, 228, 148, 0.5);
   --mainGrey: rgb(238, 238, 238);
 }
@@ -166,11 +166,13 @@ body {
   cursor: pointer;
 }
 .store-img {
-  transition: all 1s ease-in-out;
+  transition: all 2s ease-in-out;
 }
+
 .img-container:hover .store-img {
   transform: scale(1.2);
 }
+
 .store-item-icon {
   position: absolute;
   bottom: 0;
@@ -181,12 +183,15 @@ body {
   transition: all 1s ease-in-out;
   transform: translate(100%, 100%);
 }
+
 .img-container:hover .store-item-icon {
   transform: translate(0, 0);
 }
+
 .store-item-icon:hover {
   color: var(--mainWhite);
 }
+
 .store-item-value {
   color: --mainYellow;
 }
@@ -217,7 +222,7 @@ body {
 }
 .lightbox-item {
   min-height: 80vh;
-  background: url("../img/cake-1.jpeg") center/cover fixed no-repeat;
+  background: url("../img/cake-2.jpeg") center/cover fixed no-repeat;
   border-radius: 0.3rem;
 }
 .lightbox-close {
@@ -240,6 +245,11 @@ body {
 .lightbox-control:hover {
   color: var(--mainYellow);
 }
+
+.btn{
+  border-radius: 1.25rem;
+}
+
 .btnLeft {
   top: 50%;
   left: 0;
