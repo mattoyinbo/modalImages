@@ -6,7 +6,7 @@ let imageList = [];
 //let fruits = ['apple','mango','grape'];
 let counter = 0;
 
-    const images = document.querySelectorAll('.card-img-top');
+    const images = document.querySelectorAll('.store-img');
     const container = document.querySelector('.lightbox-container');
     const  item = document.querySelector('.lightbox-item');
     const  closeModal = document.querySelectorAll('.lightbox-close');
