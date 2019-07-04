@@ -13,7 +13,7 @@ let counter = 0;
     //const  control = document.querySelectorAll('.lightbox-control');
     const  btnLeft = document.querySelector('.btnLeft');
     const  btnRight = document.querySelector('.btnRight');
-    let imageSrc;
+    //let imageSrc;
 
  //add all images to ImageList arr
 images.forEach((img)=>{
@@ -30,7 +30,7 @@ images.forEach( (img)=>{
 
         img.addEventListener('click',(event)=> {
             //Get clicked image source
-            imageSrc = event.target.src;
+           let imageSrc = event.target.src;
             //show lightbox modal on click event
             container.classList.add("show");
             
