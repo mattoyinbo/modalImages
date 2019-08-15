@@ -123,7 +123,7 @@ images.forEach( (img)=>{
             event.preventDefault();
         let value = search.value.trim().toLowerCase();
     
-        console.log(value);
+        //console.log(value);
         
      items.forEach((item)=>{
          let type = item.dataset.item;
